@@ -6,7 +6,7 @@
     overflow: hidden;
     will-change: transform;
     /* 添加性能优化 */
-    animation: blur-to-clear 2s cubic-bezier(.62, .21, .25, 1) 0s 1 normal backwards running, scale 1.5s cubic-bezier(.62, .21, .25, 1) 0s 1 both;
+    animation: blur-to-clear 3s cubic-bezier(.62, .21, .25, 1) 0s 1 normal backwards running, scale 1.5s cubic-bezier(.62, .21, .25, 1) 0s 1 both;
 }
 
 .pl-img {

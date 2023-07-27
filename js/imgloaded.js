@@ -68,7 +68,7 @@ const executeLoad = (config, target) => {
 
 const config = {
     smallSrc: '/img/toutuxiao.jpg', // 小图链接 尽可能配置小于100k的图片
-    largeSrc: '/img/02_2.jpg', // 大图链接 最终显示的图片
+    largeSrc: '/img/toutuda.jpg', // 大图链接 最终显示的图片
     mobileSmallSrc: '/img/toutuxiao.jpg', // 手机端小图链接 尽可能配置小于100k的图片
     mobileLargeSrc: '/img/toutuda.jpg', // 手机端大图链接 最终显示的图片
     enableRoutes: ['/'],
