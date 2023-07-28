@@ -68,9 +68,9 @@ const executeLoad = (config, target) => {
 
 const config = {
     smallSrc: '/img/toutuxiao.jpg', // 小图链接 尽可能配置小于100k的图片
-    largeSrc: 'https://gcore.jsdelivr.net/gh/sakura-xh/upload-1@master/blogUploadIm/202307281116976.jpg', // 大图链接 最终显示的图片
-    mobileSmallSrc: '/img/toutuxiao.jpg', // 手机端小图链接 尽可能配置小于100k的图片
-    mobileLargeSrc: '/img/toutuda.jpg', // 手机端大图链接 最终显示的图片
+    largeSrc: '/img/toutuda.jpg', // 大图链接 最终显示的图片
+    mobileSmallSrc: '/img/mbtopsm.jpg', // 手机端小图链接 尽可能配置小于100k的图片
+    mobileLargeSrc: '/img/mbtopla.jpg', // 手机端大图链接 最终显示的图片
     enableRoutes: ['/'],
 };
 
