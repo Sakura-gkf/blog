@@ -1,0 +1,45 @@
+#aside-content>.card-widget.card-info {
+    background: linear-gradient(-25deg, var(--anzhiyu-main-op), var(--anzhiyu-main-op-deep), var(--anzhiyu-main), var(--anzhiyu-main-op-deep));
+    box-shadow: 0 0 3px #424444;
+    position: relative;
+    background-size: cover;
+    -webkit-animation: Gradient- 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite !important
+}
+
+body[data-type=anzhiyu] #aside-content>.card-widget.card-info {
+    box-shadow: 0 0 3px #424444;
+    position: relative;
+    background-size: cover;
+    -webkit-animation: Gradient- 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite !important;
+}
+
+#aside-content>.card-widget.card-info::before {
+    background: -webkit-linear-gradient(115deg, var(--anzhiyu-main-op), var(--anzhiyu-main-op), var(--anzhiyu-main-op), var(--anzhiyu-main-op));
+    background: -moz-linear-gradient(115deg, var(--anzhiyu-main-op), var(--anzhiyu-main-op), var(--anzhiyu-main-op), var(--anzhiyu-main-op));
+    background: -o-linear-gradient(115deg, var(--anzhiyu-main-op), var(--anzhiyu-main-op), var(--anzhiyu-main-op), var(--anzhiyu-main-op));
+    background: -ms-linear-gradient(115deg, var(--anzhiyu-main-op), var(--anzhiyu-main-op), var(--anzhiyu-main-op), var(--anzhiyu-main-op));
+    background: linear-gradient(-25deg, var(--anzhiyu-main-op), var(--anzhiyu-main-op), var(--anzhiyu-main-op), var(--anzhiyu-main-op));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px)
+}
+
+#aside-content>.card-widget.card-info:hover:before {
+    background: -webkit-linear-gradient(115deg, var(--anzhiyu-main-op), var(--anzhiyu-main), var(--anzhiyu-main), var(--anzhiyu-main));
+    background: -moz-linear-gradient(115deg, var(--anzhiyu-main-op), var(--anzhiyu-main), var(--anzhiyu-main), var(--anzhiyu-main));
+    background: -o-linear-gradient(115deg, var(--anzhiyu-main-op), var(--anzhiyu-main), var(--anzhiyu-main), var(--anzhiyu-main));
+    background: -ms-linear-gradient(115deg, var(--anzhiyu-main-op), var(--anzhiyu-main), var(--anzhiyu-main), var(--anzhiyu-main));
+    background: linear-gradient(-25deg, var(--anzhiyu-main-op), var(--anzhiyu-main), var(--anzhiyu-main), var(--anzhiyu-main))
+}
+
+[data-theme=dark] #aside-content>.card-widget.card-info {
+    background: #191919ee
+}
+
+#aside-content>.card-widget.card-info>#card-info-btn {
+    background-color: #3eb8be;
+    border-radius: 8px
+}
